@@ -16,7 +16,7 @@ public class RewardScript : MonoBehaviour
     
     void OnCollisionEnter(Collision other)
     {
-        GameManager.instance.score++;
+        GameManager.instance.Score++;
         Destroy(GameObject.Find("Reward"));
     }
 }

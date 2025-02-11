@@ -18,7 +18,7 @@ public class PrizeScript : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        GameManager.instance.score++;
+        GameManager.instance.Score++;
         transform.position = new Vector3(Random.Range(-5, 5),
             Random.Range(-5, 5), 
             0);
